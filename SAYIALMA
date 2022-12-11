@@ -1,0 +1,17 @@
+package tamsayialma.proje9;
+// Kullanıcan tam sayı almamızı sağlayan java kodu 
+import java.util.Scanner;
+public class Proje9 {
+  public static void main(String[] args) {
+ 
+ 
+    Scanner scan = new Scanner(System.in);
+    System.out.print("Bir sayı girin: ");
+ 
+  
+    int sayi = scan.nextInt();
+ 
+    System.out.println("Girilen Sayı: " + sayi);
+  
+    }
+}
