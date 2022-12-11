@@ -1,0 +1,14 @@
+package onakadartoplama.proje8;
+
+ // 1 den 10 a kadar olan sayıların toplamını veren java kodu
+public class Proje8 {
+  public static void main(String[] args) {
+    int sayi = 10, toplam = 0;
+ 
+    for(int i = 1; i <= sayi; ++i)
+    {   
+        toplam += i;
+    }
+    System.out.println("Toplam = " + toplam);
+  }
+}
